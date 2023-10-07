@@ -394,15 +394,28 @@ body{
   
     position: relative;
     max-width: 24.98rem;
-    height: 48.25rem;
+    height: 800px;
     margin-top: 4rem;
     background-image: url(contact.jpeg);
     background-size: cover;
   }
+  .contact_form_container{
+
+    position: relative;
+    max-width: 400px;
+    height: 772px;
+    margin-top: 64px;
+    background-image: url(WhatsApp\ Image\ 2023-10-07\ at\ 03.27.20_2a160876.jpg);
+    background-size: cover;
+  }
+  .container_content{
+    background-image: url(contact.jpeg);
+    margin-right: 16px;
+  }
   .contact_form_container img{
   
     position: absolute;
-    margin-top: 2.5rem;
+    margin-top: 40px;
     right: 0;
   }
   .container_content{
@@ -416,58 +429,61 @@ body{
   
   }
   .container_content h1{
-    margin-top: 6rem;
+    margin-top: 70px;
     color: white;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 3.25rem;
+    line-height: 52px;
   }
   
   .container_content p{
   color: white;
-  margin-top: 1rem;
-  font-size: 1.25rem;
+  margin-top: 6px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.75rem; 
+  line-height: 28px; 
   }
   
   form{
-    margin-top: 2rem;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 24px
   }
   form input{
     
-    width: 20.4375rem;
-    height: 3rem;
+    width: 327px;
+    height: 48px;
     flex-shrink: 0;
-    padding-left: 0.7rem;
-    border-radius: 0.6rem;
+    padding-left: 11px;
+    border-radius: 9.6px;
     border: none;
   }
   
-  form textarea{
-    width: 19.30rem;
-    height: 10.625rem;
+  .textarea{
+    display: flex;
+    align-items: flex-start;
+    width: 309px;
+    height: 170px;
+    font-size: 15px;
     flex-shrink: 0;
-    z-index: 1;
-    padding: 1rem 1rem ;
+    padding: 16px 16px ;
     color: black;
-    border-radius: 0.6rem;
-    border: none;
+    border-radius: 9.6px;
+    background-color: #f2f2f9;
+    font-family: Poppins, sans-serif;
     
   }
   #form_btn{
   
-    margin-top: 0.7rem;
-    margin-left: 1.9rem;
+    margin-top: 11px;
+    margin-left: 30px;
     background-color: white;
     color:#6070FF;
     padding: 10px 20px;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 6px;
   
   }
