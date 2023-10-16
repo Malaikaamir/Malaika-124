@@ -878,11 +878,11 @@
     max-width: 25rem;
     height: 48.25rem;
     margin-top: 4rem;
-    background-image: url(contact.png);
+    background-image: url(contact.jpeg);
     background-size: cover;
   }
   .container_content {
-    background-image: url(contact\ form\ shapes-mobile@2x.png);
+    background-image: url(contact\ form\ background\ shapes.svg);
     margin-right: 1rem;
   }
   .contact_form_container img {
@@ -954,3 +954,4 @@
     background-color: #f2f2f9;
     font-family: Poppins, sans-serif;
   }
+}
